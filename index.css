@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topic{
+    background-color: black;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    display: flex;
+    /* padding-left: 140px; */
+    /* padding-top: 15px; */
+    padding: 80px;
+}
+.photo{
+    width: 90px;
+    height: auto;
+
+}
+ul li a{
+    color: white;
+    font-size: 17px;
+    margin-right: 30px;
+
+}
+.about{
+    background-color:black;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.about p{
+    margin-top: 250px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    align-items: flex-start;
+    background-color: black;
+
+}
+.left{
+    width: 40px;
+}
+.right{
+    width: 50%;
+}
+.left p{
+    font-size: 50px;
+    color: white;
+    font-weight: 90px;
+    
+
+}
+.right p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.1;
+    max-width: 800px;
+    padding-left: 200px;
+}
+.detail{
+    background-color: white;
+    color: #333;
+    width: 90%;
+    padding:80px;
+    text-align: center;
+    height: 230px;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+
+}
+.detail h1{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+
+}
+.detail h2{
+    font-weight: 25px;
+}
+.lem{
+    height: 20vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    
+}
+.lim{
+    width: 120px;
+    height: 70px;
+    background: white;
+    border-radius: 0 0 90px 90px;
+    /* border-radius: 50%; */
+    margin-bottom: 15px;
+}
+.lem h1{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.lem p{
+    color: white;
+    font-size: 18px;
+}
+.lom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    background-color: black;
+    /* margin-left: 40px; */
+}
+.lom1 h2{
+    font-size: 20px;
+    color: white;
+}
+.lom1 h1{
+    font-size:90px;
+    color: gray;
+}
+.lom1 h3{
+    color: white;
+    font-size: 15px;
+}
+.lom2 h2{
+    font-size: 20px;
+    color: white;
+}
+.lom2 h1{
+    font-size:90px;
+    color: gray;
+}
+.lom2 h3{
+    color: white;
+    font-size: 15px;
+}
+.lom3 h2{
+    font-size: 20px;
+    color: white;
+}
+.lom3 h1{
+    font-size:90px;
+    color: gray;
+}
+.lom3 h3{
+    color: white;
+    font-size: 15px;
+}
+.lam{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.lam h1{
+    font-size: 40px;
+}
+.lam p{
+    font-size: 17px;
+}
+.lam h2{
+    font-size: 40px;
+}
+.lam h3{
+    font-size: 17px;
+}
+.eg{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.egg img{
+    width:110px;
+}
+.egg h1{
+    font-size: 20px;
+}
+.egg p{
+    font-size: 15px;
+}
+
+.egg1 img{
+    width:110px;
+}
+.egg1 h1{
+    font-size: 20px;
+}
+.egg1 p{
+    font-size: 15px;
+}
+
+.egg2 img{
+    width:110px;
+}
+.egg2 h1{
+    font-size: 20px;
+}
+.egg2 p{
+    font-size: 15px;
+}
+
+.egg3 img{
+    width:110px;
+}
+.egg3 h1{
+    font-size: 20px;
+}
+.egg3 p{
+    font-size: 15px;
+}
+.ball{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.ball h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bel{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: 12%;
+}
+
+.bell img{
+    width:110px;
+}
+.bell h1{
+    font-size: 20px;
+}
+.bell p{
+    font-size: 15px;
+}
+
+.bell1 img{
+    width:110px;
+}
+.bell1 h1{
+    font-size: 20px;
+}
+.bell1 p{
+    font-size: 15px;
+}
+
+.bell2 img{
+    width:110px;
+}
+.bell2 h1{
+    font-size: 20px;
+}
+.bell2 p{
+    font-size: 15px;
+}
+.bag{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bag1{
+    color: white;
+    width: 50%;
+    margin-left: 120px;
+    margin-top: 300px;
+}
+.bag1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.bag2{
+    
+}
+video{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.big{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    margin-top: 100px;
+    height: 100px;
+}
+.big h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.big h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+.big1{
+    display: flex;
+    background-color: black;
+    /* width: 50%; */
+    height: 140px;
+    padding: 80px;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+.big2 img{
+    width: 150px;
+    margin-left: 400px;
+}
+.big3 img{
+    width: 150px;
+    margin-right: 400px;
+}
+.big2{
+    width: 50%;
+}
+.big3{
+    width: 50%;
+}
+.bed{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+.bed h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.bad{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 80px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+.bad img{
+    width: 260px;
+}
+.beg{
+    width:20px;
+}
+.beg{
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    padding: 80px;
+    justify-content: center;   
+}
